@@ -57,7 +57,7 @@ class WorkerWidget extends StatelessWidget {
               ),
               Positioned(
                 bottom: getHeight(context) * 0.12,
-                left: getWidth(context) * 0.3,
+                left: getWidth(context) * 0.4,
                 child: Text(
                   "Erstellen dein Lebenslauf",
                   style: TextStyle(
@@ -130,7 +130,7 @@ class WorkerWidget extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: getHeight(context) * 0.20,
+                top: getHeight(context) * 0.21,
                 child: Image.asset(
                   Assets.images.undrawTask31wc.path,
                 ),

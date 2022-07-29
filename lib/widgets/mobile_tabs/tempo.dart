@@ -57,7 +57,7 @@ class TempoWidget extends StatelessWidget {
               ),
               Positioned(
                 bottom: getHeight(context) * 0.12,
-                left: getWidth(context) * 0.3,
+                left: getWidth(context) * 0.4,
                 child: Text(
                   "Erstellen dein \nUnternehmensprofil",
                   style: TextStyle(
@@ -125,7 +125,7 @@ class TempoWidget extends StatelessWidget {
               ),
               Positioned(
                 top: getHeight(context) * 0.142,
-                left: getWidth(context) * 0.3,
+                left: getWidth(context) * 0.4,
                 child: Text(
                   "Erhalte Vermittlungs- \nangebot von Arbeitgeber",
                   style: TextStyle(
@@ -164,7 +164,7 @@ class TempoWidget extends StatelessWidget {
               ),
               Positioned(
                 top: getHeight(context) * 0.1179,
-                left: getWidth(context) * 0.3,
+                left: getWidth(context) * 0.4,
                 child: Text(
                   "Vermittlung nach \nProvision oder \nStundenlohn",
                   style: TextStyle(

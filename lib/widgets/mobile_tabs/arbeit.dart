@@ -57,7 +57,7 @@ class ArbeitgeberWidget extends StatelessWidget {
               ),
               Positioned(
                 bottom: getHeight(context) * 0.12,
-                left: getWidth(context) * 0.3,
+                left: getWidth(context) * 0.4,
                 child: Text(
                   "Erstellen dein \nUnternehmensprofil",
                   style: TextStyle(
@@ -118,14 +118,14 @@ class ArbeitgeberWidget extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: getHeight(context) * 0.142,
+                top: getHeight(context) * 0.17,
                 child: Image.asset(
                   Assets.images.undrawAboutMeWa29.path,
                 ),
               ),
               Positioned(
-                top: getHeight(context) * 0.154,
-                left: getWidth(context) * 0.3,
+                top: getHeight(context) * 0.164,
+                left: getWidth(context) * 0.4,
                 child: Text(
                   "Erstellen ein Jobinserat",
                   style: TextStyle(

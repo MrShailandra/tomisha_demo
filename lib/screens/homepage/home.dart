@@ -34,8 +34,6 @@ class _HomePageScreenState extends State<HomePageScreen>
 
   @override
   Widget build(BuildContext context) {
-    print("Width ${getWidth(context) * 0.3}");
-    print("Height ${getHeight(context) * 0.472}");
     return Responsive(
       tablet: const TabletWidget(),
       desktop: const DesktopWidget(),
@@ -83,14 +81,14 @@ class _HomePageScreenState extends State<HomePageScreen>
                 height: 20,
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: DefaultTabController(
                   initialIndex: 0,
                   length: 3,
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Colors.white,
+                      color: Colors.transparent,
                     ),
                     child: TabBar(
                       enableFeedback: true,
@@ -98,12 +96,12 @@ class _HomePageScreenState extends State<HomePageScreen>
                       unselectedLabelColor: Constant.fontColor,
                       labelStyle: TextStyle(
                           fontSize: const AdaptiveTextSize()
-                              .getadaptiveTextSize(context, 14),
+                              .getadaptiveTextSize(context, 12),
                           color: Constant.textColor,
                           fontWeight: FontWeight.bold),
                       unselectedLabelStyle: TextStyle(
                           fontSize: const AdaptiveTextSize()
-                              .getadaptiveTextSize(context, 14),
+                              .getadaptiveTextSize(context, 12),
                           color: Constant.fontColor),
                       onTap: (index) {
                         setState(() {
